@@ -34,7 +34,7 @@ public class Book {
 		return publisher;
 	}
 	public String BookInfo() {
-		return "bookname:"+bookname+" isbn npo:"+ISBN+" "+author+" "+publisher;
+		return "bookname:"+bookname+" isbn no:"+ISBN+"  author name:  "+author+"  publisher : "+publisher;
 	}
 
 }
