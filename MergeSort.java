@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class MergeSort {
 	void sort(int a[], int l, int r)
