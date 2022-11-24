@@ -1,5 +1,5 @@
 
-public class Book {
+public class Book{
 	private String bookname,ISBN,author,publisher;
 	
 	Book( String bn,String i,String auth,String bp){
