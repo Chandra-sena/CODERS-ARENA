@@ -15,11 +15,10 @@ def inOrder(root):
         inOrder(root.left)
         print(root.data,end=" ")
         inOrder(root.right)
-if __name__ == '__main__':
-    n=int(input("enter the length of list:"))
-    arr=[]
-    for i in range(n):
-        arr.append(input("Enter Element:"))
-    root = None
-    root = insertLevelOrder(arr, 0, n)
-    inOrder(root)
+n=int(input("enter the length of list:"))
+arr=[]
+for i in range(n):
+    arr.append(input("Enter Element:"))
+root = None
+root = insertLevelOrder(arr, 0, n)
+inOrder(root)
