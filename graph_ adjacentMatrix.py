@@ -1,4 +1,5 @@
 def add_node(v):
+    #declaring a global variable
     global nc
     if v in nodes:
         print(v,'is already present in graph')
